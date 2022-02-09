@@ -1,10 +1,11 @@
-//import { Todo } from "./components/Todo";
-import "./App.css";
 
+import React from "react";
+import { Navbar } from "./components";
 function App() {
+
   return (
-    <div className="outterScreen">
-      <div className="App">{/* <Todo /> */}</div>
+    <div className="App">
+      <Navbar />
     </div>
   );
 }
